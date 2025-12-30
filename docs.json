@@ -14,35 +14,33 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "Introduction/Welcome to Mysamantha"
             ]
           },
           {
-            "group": "Customization",
+            "group": "How it works",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "How it works/How Mysamantha Works"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Core Features",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "Core Features/Notes",
+              "Core Features/To Do",
+              "Core Features/Journal",
+              "Core Features/Assistant"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Integrations",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "Integrations/Integrations Overview",
+              "Integrations/Email",
+              "Integrations/Calendar",
+              "Integrations/Gmap"
             ]
           }
         ]

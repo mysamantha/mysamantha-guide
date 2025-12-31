@@ -8,6 +8,10 @@
     "dark": "#15803D"
   },
   "favicon": "/logo/favicon.png",
+  "logo": {
+    "light": "/logo/Black Logo (5).svg",
+    "dark": "/logo/White Logo (5).svg"
+  },
   "navigation": {
     "tabs": [
       {
@@ -41,14 +45,38 @@
               "Integrations/Calendar",
               "Integrations/Gmap"
             ]
+          },
+          {
+            "group": "Browser Extension",
+            "pages": [
+              "BrowserExtension/WebClipper"
+            ]
+          },
+          {
+            "group": "Migration",
+            "pages": [
+              "Migration/Notion"
+            ]
+          },
+          {
+            "group": "Dashboard",
+            "pages": [
+              "Dashboard/PersonalityTraits",
+              "Dashboard/Streaks and AI Credits"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "Advanced/TravelPlanner",
+              "Advanced/BYOK",
+              "Advanced/NotificationRules",
+              "Advanced/Offline"
+            ]
           }
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "/logo/Black Logo (5).svg",
-    "dark": "/logo/White Logo (5).svg"
   },
   "navbar": {
     "links": [

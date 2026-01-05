@@ -3,7 +3,9 @@
   "theme": "willow",
   "name": "Mysamantha Docs",
   "colors": {
-    "primary": "#6B7280"
+    "primary": "#FFFFFF",
+    "light": "#FFFFFF",
+    "dark": "#000000"
   },
   "favicon": "/logo/favicon.png",
   "logo": {

@@ -33,8 +33,12 @@
             "group": "Core Features",
             "pages": [
               "CoreFeatures/Notes",
-              "CoreFeatures/ToDo",
-              "CoreFeatures/Recurringtasks",
+              {
+                "page": "CoreFeatures/ToDo",
+                "children": [
+                  "CoreFeatures/Recurringtasks"
+                ]
+              },
               "CoreFeatures/Journal",
               "CoreFeatures/Assistant"
             ]

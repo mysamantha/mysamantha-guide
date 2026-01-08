@@ -1,115 +1,118 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mysamantha Docs",
+  "name": "LLMC DOCS",
   "colors": {
-    "primary": "#C82AEF"
+    "primary": "#C82AEF",
+    "light": "#C82AEF",
+    "dark": "#C82AEF"
   },
-  "favicon": "/logo/favicon.png",
+  "favicon": "/logo/favicon.svg",
   "logo": {
-    "light": "/logo/Black Logo (5).svg",
-    "dark": "/logo/White Logo (5).svg"
+    "light": "/logo/LLM_Logo1.svg",
+    "dark": "/logo/LLM_Logo1.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:samantha@zemuria.com"
-      },
-      {
-        "label": "Blog",
-        "href": "https://mysamantha.ai/blog"
-      }
-    ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://mysamantha.ai"
+      "href": "https://app.llmcontrols.ai"
     }
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/samanthareplies",
-      "instagram": "https://www.instagram.com/samanthareplies/",
-      "telegram": "https://t.me/samanthareplies"
-    }
-  },
+  "customCss": "/style/style.css",
+  "footer": {},
   "navigation": {
     "tabs": [
       {
-        "tab": "Guide",
+        "tab": "Overview",
         "groups": [
           {
-            "group": "Introduction",
+            "group": "Welcome",
+            "pages": ["welcome"]
+          },
+          {
+            "group": "Get started",
+            "pages": ["Getstarted/quickstart"]
+          },
+          {
+            "group": "Templates",
             "pages": [
-              "Introduction/WelcometoMysamantha"
+              "Templates/EmailLead",
+              "Templates/ResumeExtraction",
+              "Templates/TargetedFAQ",
+              "Templates/CustomerService",
+              "Templates/SmartSpreadsheet",
+              "Templates/RFPBiddingFlow",
+              "Templates/SummarizationAggregation"
             ]
           },
           {
-            "group": "How it works",
+            "group": "Concepts",
             "pages": [
-              "Howitworks/HowMysamanthaWorks"
+              "Concepts/LLMCoverview",
+              "Concepts/playground",
+              "Concepts/flows",
+              "Concepts/LLMCobjects",
+              "Concepts/publish-flows",
+              "Concepts/embedded-chat-widget",
+              "Concepts/LLMControlsTracing",
+              "Concepts/manage-files"
             ]
           },
           {
-            "group": "Core Features",
+            "group": "Components",
             "pages": [
-              "CoreFeatures/Notes"
-            ],
-            "groups": [
-              {
-                "group": "To Do",
-                "pages": [
-                  "CoreFeatures/Recurringtasks"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Core Features",
-            "pages": [
-              "CoreFeatures/Journal",
-              "CoreFeatures/Assistant"
+              "Components/componentoverview",
+              "Components/Agents",
+              "Components/Bundles",
+              "Components/CreatecustomPythoncomponents",
+              "Components/Data",
+              "Components/Embeddings",
+              "Components/Helpers",
+              "Components/Inputsandoutputs",
+              "Components/Logic",
+              "Components/Memories",
+              "Components/Models",
+              "Components/Processing",
+              "Components/Prompts",
+              "Components/Tools",
+              "Components/Vectorstores"
             ]
           },
           {
             "group": "Integrations",
             "pages": [
-              "Integrations/Email",
-              "Integrations/Calendar",
-              "Integrations/Gmap"
-            ]
-          },
-          {
-            "group": "Browser Extension",
-            "pages": [
-              "BrowserExtension/WebClipper"
-            ]
-          },
-          {
-            "group": "Migration",
-            "pages": [
-              "Migration/Notion"
-            ]
-          },
-          {
-            "group": "Dashboard",
-            "pages": [
-              "Dashboard/PersonalityTraits",
-              "Dashboard/StreaksandAICredits"
-            ]
-          },
-          {
-            "group": "Advanced",
-            "pages": [
-              "Advanced/TravelPlanner",
-              "Advanced/BYOK",
-              "Advanced/NotificationRules",
-              "Advanced/Offlineaccess"
+              "Integrations/Apify",
+              "Integrations/AssemblyAI",
+              "Integrations/AstraDBMCPserver",
+              "Integrations/Composition",
+              {
+                "group": "Google",
+                "pages": [
+                  "Integrations/Google/google-oauth-llmc",
+                  "Integrations/Google/google-vertex-ai-llmc"
+                ]
+              },
+              {
+                "group": "Opik",
+                "pages": ["Integrations/Opik/opik"]
+              },
+              {
+                "group": "Notion",
+                "pages": ["Integrations/Notion/notion-setup"]
+              },
+              {
+                "group": "NVIDIA",
+                "pages": [
+                  "Integrations/NVIDIA/NVIDIANIMonWSL2",
+                  "Integrations/NVIDIA/NVIDIAG-Assist"
+                ]
+              }
             ]
           }
         ]
       }
-    ]
+    ],
+    "global": {}
   }
-}
+} 

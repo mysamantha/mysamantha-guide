@@ -34,7 +34,7 @@
             "pages": [
               "CoreFeatures/Notes",
               "CoreFeatures/ToDo",
-              "CoreFeatures/Recurringtasks",
+              "CoreFeatures/ToDo/Recurringtasks",
               "CoreFeatures/Journal",
               "CoreFeatures/Assistant"
             ]

@@ -9,8 +9,8 @@
   },
   "favicon": "/logo/favicon.png",
   "logo": {
-    "light": "/logo/Black Logo (5).svg",
-    "dark": "/logo/White Logo (5).svg"
+    "light": "/logo/icon.png",
+    "dark": "/logo/icon.png"
   },
   "navigation": {
     "tabs": [

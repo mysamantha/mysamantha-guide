@@ -63,7 +63,7 @@
             "group": "Dashboard",
             "pages": [
               "Dashboard/PersonalityTraits",
-              "Dashboard/StreaksandAICredits"
+              "Dashboard/AICredits"
             ]
           },
           {

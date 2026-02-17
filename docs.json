@@ -62,8 +62,7 @@
           {
             "group": "Dashboard",
             "pages": [
-              "Dashboard/PersonalityTraits",
-              "Dashboard/AICredits"
+              "Dashboard/PersonalityTraits"
             ]
           },
           {

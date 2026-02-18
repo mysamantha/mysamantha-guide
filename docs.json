@@ -16,7 +16,7 @@
     "tabs": [
       {
         "tab": "Guide",
-        "groups": [
+        "pages": [
           {
             "group": "Introduction",
             "pages": [
@@ -73,7 +73,9 @@
               "Advanced/NotificationRules",
               "Advanced/Offlineaccess"
             ]
-          }
+          },
+          "faq",
+          "pricing"
         ]
       }
     ]

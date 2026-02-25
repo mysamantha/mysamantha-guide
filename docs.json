@@ -15,12 +15,65 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Untitled Tab"
-      },
-      {
-        "tab": "Getting Started",
+        "tab": "Guide",
         "pages": [
-          "guide"
+          {
+            "group": "Introduction",
+            "pages": [
+              "Introduction/WelcometoMysamantha"
+            ]
+          },
+          {
+            "group": "How it works",
+            "pages": [
+              "Howitworks/HowMysamanthaWorks"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "CoreFeatures/Notes",
+              "CoreFeatures/ToDo",
+              "CoreFeatures/Recurringtasks",
+              "CoreFeatures/Journal",
+              "CoreFeatures/Assistant"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "Integrations/Email",
+              "Integrations/Calendar",
+              "Integrations/Gmap"
+            ]
+          },
+          {
+            "group": "Browser Extension",
+            "pages": [
+              "BrowserExtension/WebClipper"
+            ]
+          },
+          {
+            "group": "Migration",
+            "pages": [
+              "Migration/Notion"
+            ]
+          },
+          {
+            "group": "Dashboard",
+            "pages": [
+              "Dashboard/PersonalityTraits"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "Advanced/TravelPlanner",
+              "Advanced/BYOK",
+              "Advanced/NotificationRules",
+              "Advanced/Offlineaccess"
+            ]
+          }
         ]
       }
     ]
@@ -45,8 +98,8 @@
   "footer": {
     "socials": {
       "x": "https://x.com/samanthareplies",
-      "instagram": "https://www.instagram.com/samanthareplies/"
-  
+      "instagram": "https://www.instagram.com/samanthareplies/",
+      "telegram": "https://t.me/samanthareplies"
     }
   }
 }

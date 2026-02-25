@@ -18,6 +18,14 @@
         "tab": "Guide",
         "pages": [
           {
+            "group": "Getting Started",
+            "pages": [
+              "GettingStarted/Quickstart",
+              "GettingStarted/Installation",
+              "GettingStarted/FAQ"
+            ]
+          },
+          {
             "group": "Introduction",
             "pages": [
               "Introduction/WelcometoMysamantha"

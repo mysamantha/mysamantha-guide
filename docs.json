@@ -18,6 +18,12 @@
         "tab": "Guide",
         "pages": [
           {
+            "group": "Getting Started",
+            "pages": [
+              "GettingStarted/index"
+            ]
+          },
+          {
             "group": "Introduction",
             "pages": [
               "Introduction/WelcometoMysamantha"
@@ -98,8 +104,8 @@
   "footer": {
     "socials": {
       "x": "https://x.com/samanthareplies",
-      "instagram": "https://www.instagram.com/samanthareplies/",
-      "telegram": "https://t.me/samanthareplies"
+      "instagram": "https://www.instagram.com/samanthareplies/"
+  
     }
   }
 }

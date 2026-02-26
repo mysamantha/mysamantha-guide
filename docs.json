@@ -18,6 +18,11 @@
         "tab": "Guide",
         "pages": [
           {
+            "group": "Getting Started",
+            "pages": ["Getting Started/Start"
+            ]
+          },
+          {
             "group": "Introduction",
             "pages": [
               "Introduction/WelcometoMysamantha"

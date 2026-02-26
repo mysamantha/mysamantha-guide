@@ -41,7 +41,8 @@
               "CoreFeatures/Notes",
               "CoreFeatures/ToDo",
               "CoreFeatures/Recurringtasks",
-              "CoreFeatures/Journal"
+              "CoreFeatures/Journal",
+              "CoreFeatures/Assistant"
             ]
           },
           {

@@ -19,7 +19,8 @@
         "pages": [
           {
             "group": "GettingStarted",
-            "pages": ["GettingStarted/Start"
+            "pages": [
+              "GettingStarted/Start"
             ]
           },
           {

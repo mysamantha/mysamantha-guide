@@ -20,7 +20,11 @@
           {
             "group": "GettingStarted",
             "pages": [
-              "GettingStarted/Quickstart"
+              "GettingStarted/Quickstart",
+              "GettingStarted/plan-your-day",
+              "GettingStarted/untitled-page",
+              "GettingStarted/untitled-page-1",
+              "GettingStarted/untitled-page-2"
             ]
           },
           {

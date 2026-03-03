@@ -6,9 +6,9 @@ icon: "bolt"
 
 ## What is YouDo?
 
-YouDo is Samantha's automation engine. Instead of repeating the same actions every day — forwarding emails, creating tasks, setting reminders — you define a rule once and YouDo runs it for you in the background, every time.
+YouDo is Samantha's automation engine. Instead of repeating the same actions every day (forwarding emails, creating tasks, setting reminders) you define a rule once and YouDo runs it for you in the background when the trigger happens.
 
-It's designed for the work you already know you'll do. YouDo just does it first.
+It's designed for the work you already know you'll do. YouDo handles it automatically (or prepares it for approval).
 
 ---
 
@@ -18,15 +18,17 @@ Every YouDo rule has three parts:
 
 <Steps>
   <Step title="Trigger">
-    The event that kicks off the automation — an incoming email, a time of day, a task going overdue.
+    The event that kicks off the automation: an incoming email, a time of day, a task going overdue.
   </Step>
   <Step title="Conditions (optional)">
-    Filters that narrow when the rule fires — a specific sender, a keyword in the subject, a time window.
+    Filters that narrow when the rule fires: a specific sender, a keyword in the subject, a time window.
   </Step>
   <Step title="Action">
-    What Samantha does automatically — creates a task, drafts a reply, saves a note, adds a calendar event.
+    What Samantha does automatically: creates a task, drafts a reply, saves a note, adds a calendar event.
   </Step>
 </Steps>
+
+<Note>Available triggers and actions depend on your connected apps and permissions.</Note>
 
 ---
 
@@ -36,13 +38,13 @@ Every YouDo rule has three parts:
   <Tab title="Email">
     - New email from a specific person or domain
     - Email contains certain keywords
-    - Email matches a label or priority level
+    - Email matches a label/category/importance (if available)
     - You send an email with a specific label (e.g. "needs follow-up")
   </Tab>
   <Tab title="Time">
     - Daily, weekly, or monthly schedule
     - Specific day + time (e.g. every Monday at 9 AM)
-    - Relative timing (e.g. 3 days after an email is sent)
+    - Time offsets (where supported), e.g. create a follow-up task 3 days later
   </Tab>
   <Tab title="Tasks">
     - A task becomes due or overdue
@@ -58,10 +60,10 @@ Every YouDo rule has three parts:
 |---|---|
 | **Create a task** | Adds a task with due date, priority, and context |
 | **Draft an email** | Prepares a reply for your review before sending |
-| **Send an email** | Sends automatically (use carefully) |
+| **Send an email (optional)** | Can send automatically if enabled, otherwise drafts for approval |
 | **Add a calendar event** | Blocks time or creates a reminder |
 | **Save to Notes** | Captures key details from an email or thread |
-| **Post a summary** | Summarizes a thread into a note + creates a follow-up task |
+| **Summary (optional)** | Can summarize an email/thread and save it to Notes, and optionally create a follow-up task (where supported) |
 
 ---
 
@@ -70,7 +72,7 @@ Every YouDo rule has three parts:
 <AccordionGroup>
   <Accordion title="VIP email → task">
     **Trigger:** Email arrives from your boss or a key client  
-    **Action:** Create task "Reply to [Name]" due today, with the email attached as context
+    **Action:** Create task "Reply to [Name]" due today, with a link/reference to the email as context
   </Accordion>
 
   <Accordion title="Invoice workflow">
@@ -81,12 +83,12 @@ Every YouDo rule has three parts:
 
   <Accordion title="Daily planning routine">
     **Trigger:** Every day at 8:30 AM  
-    **Action:** Create task "Plan today (10 min)" and surface your top 3 priorities
+    **Action:** Create task "Plan today (10 min)" and include your top tasks (if available)
   </Accordion>
 
   <Accordion title="Follow-up safety net">
     **Trigger:** You send an email tagged "follow up"  
-    **Action:** Create task "Follow up on email" due in 3 days, linked to the thread
+    **Action:** Create task "Follow up on email" due in 3 days, including a link/reference to the thread
   </Accordion>
 
   <Accordion title="Weekly review">
@@ -103,10 +105,10 @@ Every YouDo rule has three parts:
   YouDo rules can run in **auto mode** (fires immediately) or **draft mode** (Samantha prepares the action and waits for your approval). Start with draft mode for new rules.
 </Info>
 
-- **Start narrow** — Use specific senders or keywords to avoid false triggers
-- **Draft before auto** — Review actions before switching to fully automatic
-- **Pause anytime** — Rules can be toggled off without deleting them
-- **Edit or delete** — Modify any rule at any time from the YouDo settings panel
+- **Start narrow:** Use specific senders or keywords to avoid false triggers
+- **Draft before auto:** Review actions before switching to fully automatic
+- **Pause anytime:** Rules can be toggled off without deleting them
+- **Edit or delete:** Modify any rule at any time from the YouDo settings panel
 
 ---
 

@@ -10,8 +10,6 @@ YouDo is Samantha's automation engine. Instead of repeating the same actions eve
 
 It's designed for the work you already know you'll do. YouDo handles it automatically (or prepares it for approval).
 
----
-
 ## How it works
 
 Every YouDo rule has three parts:
@@ -28,9 +26,9 @@ Every YouDo rule has three parts:
   </Step>
 </Steps>
 
-<Note>Available triggers and actions depend on your connected apps and permissions.</Note>
-
----
+<Note>
+  Available triggers and actions depend on your connected apps and permissions.
+</Note>
 
 ## Triggers
 
@@ -52,52 +50,42 @@ Every YouDo rule has three parts:
   </Tab>
 </Tabs>
 
----
-
 ## Actions
 
-| Action | What it does |
-|---|---|
-| **Create a task** | Adds a task with due date, priority, and context |
-| **Draft an email** | Prepares a reply for your review before sending |
-| **Send an email (optional)** | Can send automatically if enabled, otherwise drafts for approval |
-| **Add a calendar event** | Blocks time or creates a reminder |
-| **Save to Notes** | Captures key details from an email or thread |
-| **Summary (optional)** | Can summarize an email/thread and save it to Notes, and optionally create a follow-up task (where supported) |
-
----
+| Action                       | What it does                                                                                                 |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Create a task**            | Adds a task with due date, priority, and context                                                             |
+| **Draft an email**           | Prepares a reply for your review before sending                                                              |
+| **Send an email (optional)** | Can send automatically if enabled, otherwise drafts for approval                                             |
+| **Add a calendar event**     | Blocks time or creates a reminder                                                                            |
+| **Save to Notes**            | Captures key details from an email or thread                                                                 |
+| **Summary (optional)**       | Can summarize an email/thread and save it to Notes, and optionally create a follow-up task (where supported) |
 
 ## Example rules
 
 <AccordionGroup>
   <Accordion title="VIP email → task">
-    **Trigger:** Email arrives from your boss or a key client  
+    **Trigger:** Email arrives from your boss or a key client\
     **Action:** Create task "Reply to [Name]" due today, with a link/reference to the email as context
   </Accordion>
-
   <Accordion title="Invoice workflow">
-    **Trigger:** Email subject contains "invoice"  
-    **Condition:** Sender is external  
+    **Trigger:** Email subject contains "invoice"\
+    **Condition:** Sender is external\
     **Action:** Create task "Process invoice" due tomorrow, filed under Finance
   </Accordion>
-
   <Accordion title="Daily planning routine">
-    **Trigger:** Every day at 8:30 AM  
+    **Trigger:** Every day at 8:30 AM\
     **Action:** Create task "Plan today (10 min)" and include your top tasks (if available)
   </Accordion>
-
   <Accordion title="Follow-up safety net">
-    **Trigger:** You send an email tagged "follow up"  
+    **Trigger:** You send an email tagged "follow up"\
     **Action:** Create task "Follow up on email" due in 3 days, including a link/reference to the thread
   </Accordion>
-
   <Accordion title="Weekly review">
-    **Trigger:** Every Friday at 4 PM  
+    **Trigger:** Every Friday at 4 PM\
     **Action:** Summarize completed tasks into a weekly note + create "Plan next week" task
   </Accordion>
 </AccordionGroup>
-
----
 
 ## Control & safety
 
@@ -110,12 +98,10 @@ Every YouDo rule has three parts:
 - **Pause anytime:** Rules can be toggled off without deleting them
 - **Edit or delete:** Modify any rule at any time from the YouDo settings panel
 
----
-
 ## Getting started
 
 The fastest way to set up YouDo is to describe a workflow you already repeat. Samantha will suggest the right rule structure.
 
 <Tip>
-  Try saying: *"Whenever I get an email from my accountant, create a task to reply by end of day."*
+  Try saying: _"Whenever I get an email from my accountant, create a task to reply by end of day."_
 </Tip>

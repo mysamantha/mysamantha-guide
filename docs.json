@@ -20,11 +20,7 @@
           {
             "group": "Getting Started",
             "pages": [
-              "GettingStarted/Quickstart",
-              "GettingStarted/ChatwithSamantha",
-              "GettingStarted/PlanYourDay",
-              "GettingStarted/StartwithNotes",
-              "GettingStarted/ReflectwithJournal"
+              "GettingStarted/Quickstart"
             ]
           },
           {

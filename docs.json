@@ -78,6 +78,12 @@
               "Advanced/Offlineaccess",
               "Advanced/youdo"
             ]
+          },
+          {
+            "group": "Use case",
+            "pages": [
+              "Usecase/use-cases"
+            ]
           }
         ]
       }

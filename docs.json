@@ -83,12 +83,7 @@
       }
     ]
   },
-  {
-  "group": "Use Cases",
-  "pages": [
-    "UseCases/index"
-  ]
-},
+
   "navbar": {
     "links": [
       {

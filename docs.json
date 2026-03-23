@@ -50,9 +50,9 @@
             ]
           },
           {
-            "group": "Integrations",
+            "group": "Integration",
             "pages": [
-              "Integrations/Index"
+              "Integration/Index"
             ]
           },
           {

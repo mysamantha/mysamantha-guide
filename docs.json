@@ -82,11 +82,7 @@
           {
             "group": "Use case",
             "pages": [
-              "Usecase/use-cases",
-              "Usecase/dailyplanning",
-              "Usecase/inboxtriage",
-              "Usecase/meetingscheduling",
-              "Usecase/taskcapture"
+              "Usecase/use-cases"
             ]
           }
         ]

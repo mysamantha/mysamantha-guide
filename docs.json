@@ -95,12 +95,8 @@
       {
         "label": "Support",
         "href": "mailto:samantha@zemuria.com"
-      },
-      {
-        "label": "Blog",
-        "href": "https://mysamantha.ai/blog"
       }
-    ],
+    ]
     "primary": {
       "type": "button",
       "label": "Dashboard",

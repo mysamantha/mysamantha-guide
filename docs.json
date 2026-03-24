@@ -96,7 +96,7 @@
         "label": "Support",
         "href": "mailto:samantha@zemuria.com"
       }
-    ]
+    ],
     "primary": {
       "type": "button",
       "label": "Dashboard",

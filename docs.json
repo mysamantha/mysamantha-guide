@@ -41,13 +41,23 @@
             ]
           },
           {
-            "group": "CoreFeatures",
+            "group": "Core Features",
             "pages": [
               "CoreFeatures/Notes",
               "CoreFeatures/ToDo",
               "CoreFeatures/Recurringtasks",
               "CoreFeatures/Journal",
               "CoreFeatures/Assistant"
+            ]
+          },
+          {
+            "group": "Settings",
+            "pages": [
+              "Settings/Preferences",
+              "Settings/ExcludedLabels",
+              "Settings/EmailFooter",
+              "Settings/SlashCommands",
+              "Settings/BYOKforTranscription"
             ]
           },
           {
@@ -65,7 +75,8 @@
           {
             "group": "Migration",
             "pages": [
-              "Migration/Notion"
+              "Migration/Notion",
+              "Migration/Obsidian"
             ]
           },
           {
@@ -78,13 +89,12 @@
             "group": "Advanced",
             "pages": [
               "Advanced/TravelPlanner",
-              "Advanced/BYOK",
               "Advanced/Offlineaccess",
               "Advanced/youdo"
             ]
           },
           {
-            "group": "Use case",
+            "group": "Use Cases",
             "pages": [
               "Usecase/use-cases"
             ]

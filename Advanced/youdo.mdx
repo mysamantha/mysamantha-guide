@@ -54,14 +54,49 @@ Every YouDo rule has three parts:
 
 ## Actions
 
-| Action | What it does |
-| --- | --- |
-| **Create a task** | Adds a task with due date, priority, and context |
-| **Draft an email** | Prepares a reply for your review before sending |
-| **Send an email (optional)** | Can send automatically if enabled, otherwise drafts for approval |
-| **Add a calendar event** | Blocks time or creates a reminder |
-| **Save to Notes** | Captures key details from an email or thread |
-| **Summary (optional)** | Can summarize an email/thread and save it to Notes, and optionally create a follow-up task (where supported) |
+Choose what Samantha should do when a rule is triggered.
+
+<CardGroup cols={2}>
+  <Card title="Create a task" icon="square-check">
+    Turns something into a task you can track and complete.
+
+    **Use this for:** follow-ups, approvals, invoices, reminders, or anything that needs action later.
+  </Card>
+
+  <Card title="Draft an email" icon="mail">
+    Prepares an email for you, but does not send it.
+
+    **Use this for:** replies you want to review before sending, especially for clients, teammates, or important threads.
+  </Card>
+
+  <Card title="Send an email" icon="send">
+    Sends the email automatically when the rule runs, if auto-send is enabled.
+
+    **Use this for:** repetitive responses, confirmations, or standard updates you do not need to review each time.
+  </Card>
+
+  <Card title="Add a calendar event" icon="calendar">
+    Creates an event on your calendar or blocks time for something important.
+
+    **Use this for:** reminders, follow-up slots, meetings, or dedicated time for focused work.
+  </Card>
+
+  <Card title="Save to Notes" icon="notebook">
+    Saves useful details from an email or thread into Notes.
+
+    **Use this for:** meeting details, client context, research, decisions, or anything you may need later.
+  </Card>
+
+  <Card title="Summary" icon="file-text">
+    Creates a short summary of the email or thread, and can save it to Notes.
+
+    **Use this for:** long threads, updates you want to review quickly, or conversations you may need to revisit.
+  </Card>
+</CardGroup>
+
+<Tip>
+  A simple way to choose an action: ask yourself what should happen next - track it, reply to it, schedule it, save it, or summarize it.
+</Tip>
 
 ## Example rules
 
@@ -111,7 +146,7 @@ Every YouDo rule has three parts:
 The fastest way to set up YouDo is to describe a workflow you already repeat. Samantha will suggest the right rule structure.
 
 <Tip>
-  Try saying: _"_Whenever I get an email from my accountant, create a task to reply by end of day._"_
+  Try saying: _"Whenever I get an email from my accountant, create a task to reply by end of day."_
 </Tip>
 
 <Frame>

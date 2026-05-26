@@ -3,9 +3,9 @@
   "theme": "palm",
   "name": "Mysamantha Docs",
   "colors": {
-    "primary": "#000000",
-    "light": "#6B7280",
-    "dark": "#FFFFFF"
+    "primary": "#D85A30",
+    "light": "#F0997B",
+    "dark": "#993C1D"
   },
   "favicon": "/logo/icon.png",
   "logo": {

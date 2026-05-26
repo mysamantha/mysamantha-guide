@@ -123,5 +123,11 @@
       "reddit": "https://www.reddit.com/r/CafeSamantha/"
 
     }
+  },
+  "background": {
+    "color": {
+      "light": "#F0997B",
+      "dark": "#993C1D"
+    }
   }
 }

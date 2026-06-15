@@ -73,7 +73,7 @@
             ]
           },
           {
-            "group": "Migration",
+            "group": "Import",
             "pages": [
               "Migration/Notion",
               "Migration/Obsidian"

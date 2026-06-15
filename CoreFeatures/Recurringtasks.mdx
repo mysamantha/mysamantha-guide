@@ -1,199 +1,228 @@
 ---
 title: "Recurring tasks"
-description: "Set tasks to repeat automatically so you do not have to recreate them every day, week, month, or year."
-keywords: ["recurring tasks", "repeat tasks", "task automation", "routines"]
 ---
 
-Set tasks to repeat automatically so you do not have to recreate them every day, week, month, or year.
+## give as mdx code like this - [https://zemuria-1609c765.mintlify.app/CoreFeatures/Recurringtasks](https://zemuria-1609c765.mintlify.app/CoreFeatures/Recurringtasks) - --- title: "Recurring tasks" description: "Set tasks to repeat automatically so you do not have to recreate them every day, week, month, or year." keywords: \["recurring tasks", "repeating tasks", "task automation"\]
 
 Recurring tasks are useful for routines like daily medication, weekly reviews, monthly bills, or annual deadlines. Set the pattern once, and MySamantha keeps the schedule going for you.
+
+<video src="/videos/recurring.mp4" controls />
 
 ## What are recurring tasks?
 
 Recurring tasks help you automate work that happens on a regular schedule.
 
-## Common examples
+<CardGroup cols={2}>
+  <Card title="Common examples" icon="calendar">
+    Daily medication, weekly team meetings, monthly rent, quarterly reviews, and yearly tax filing.
+  </Card>
 
-Daily medication, weekly team meetings, monthly rent, quarterly reviews, and yearly tax filing.
-
-## How it works
-
-When you complete one recurring task, the next occurrence is created automatically based on the pattern you set.
+  <Card title="How it works" icon="rotate-right">
+    When you complete one recurring task, the next occurrence is created automatically based on the pattern you set.
+  </Card>
+</CardGroup>
 
 ## How to create recurring tasks
 
-**In mobile app**
+<Tabs>
+  <Tab title="In mobile app">
+    1. Create a new task
+    2. Click the **Date** field
+    3. Open the **Recurring** tab
+    4. Choose the **start date**
+    5. Set the **start time** and **end time**
+    6. Choose how often the task should repeat:
+       - Every day
+       - Every week
+       - Every month
+       - Every year
+       - **Custom**
+    7. Save the task
+  </Tab>
+  <Tab title="In web app">
+    1. Create a new task
+    2. Under **Task Type**, choose **Recurring**
+    3. Open **Frequency**
+    4. Choose the repeat pattern:
+       - Every day
+       - Every week
+       - Every month
+       - Every year
+       - **Custom**
+    5. Set **Start time** and **Due time** under **Instance Times** if needed
+    6. Choose the **List**
+    7. Click **Create task**
+  </Tab>
+</Tabs>
 
-1. Create a new task
-2. Click the **Date** field
-3. Open the **Recurring** tab
-4. Choose the **start date**
-5. Set the **start time** and **end time**
-6. Choose how often the task should repeat:
-   - Every day
-   - Every week
-   - Every month
-   - Every year
-   - **Custom**
-7. Save the task
+<Tip>
+  Use **Custom** when you want a more specific repeat pattern.
+</Tip>
 
-**In web app**
-
-1. Create a new task
-2. Under **Task Type**, choose **Recurring**
-3. Open **Frequency**
-4. Choose the repeat pattern:
-   - Every day
-   - Every week
-   - Every month
-   - Every year
-   - **Custom**
-5. Set **Start time** and **Due time** under **Instance Times** if needed
-6. Choose the **List**
-7. Click **Create task**
-
-Use **Custom** when you want a more specific repeat pattern.
+<video src="/videos/custom.mp4" controls />
 
 ## Recurring task patterns
 
-### Daily patterns
+<AccordionGroup>
+  <Accordion title="Daily patterns">
+    - **Every day**
+    - **Every weekday**
+    - **Every 2 days**
+    - **Every 3 days**
+  </Accordion>
 
-- **Every day**
-- **Every weekday**
-- **Every 2 days**
-- **Every 3 days**
+  <Accordion title="Weekly patterns">
+    - **Every week**
+    - **Every Monday**
+    - **Every Monday and Friday**
+    - **Every weekend**
+    - **Every other week**
+    - **Every 3 weeks**
+    - **Every Monday, Wednesday, Friday**
+    - **Every Tuesday, Thursday**
+  </Accordion>
 
-### Weekly patterns
+  <Accordion title="Monthly patterns">
+    - **Every month**
+    - **Every 15th**
+    - **Every 2 months**
+    - **Every 3 months**
+    - **Every 6 months**
+  </Accordion>
 
-- **Every week**
-- **Every Monday**
-- **Every Monday and Friday**
-- **Every weekend**
-- **Every other week**
-- **Every 3 weeks**
-- **Every Monday, Wednesday, Friday**
-- **Every Tuesday, Thursday**
+  <Accordion title="Yearly patterns">
+    - **Every year**
+    - **Every January 15th**
+    - **Every December 25th**
+  </Accordion>
 
-### Monthly patterns
+  <Accordion title="Time-based recurring tasks">
+    You can add a time to any recurring task.
 
-- **Every month**
-- **Every 15th**
-- **Every 2 months**
-- **Every 3 months**
-- **Every 6 months**
+    - **Every Monday at 9 AM**
+    - **Every first Friday at 10:30 AM**
+    - **Every weekday at 8:30 AM**
+    - **Every 2 weeks at 3 PM**
+  </Accordion>
 
-### Yearly patterns
-
-- **Every year**
-- **Every January 15th**
-- **Every December 25th**
-
-### Time-based recurring tasks
-
-You can add a time to any recurring task.
-
-- **Every Monday at 9 AM**
-- **Every first Friday at 10:30 AM**
-- **Every weekday at 8:30 AM**
-- **Every 2 weeks at 3 PM**
-
-### Ending on a specific date
-
-- **Every day until March 31**
-- **Every Monday ending December 15**
-- **Every week for 3 months**
+  <Accordion title="Ending on a specific date">
+    - **Every day until March 31**
+    - **Every Monday ending December 15**
+    - **Every week for 3 months**
+  </Accordion>
+</AccordionGroup>
 
 ## Limitations and workarounds
 
-Some repeat patterns are not supported yet. Here’s the easiest workaround for each one.
+<Info>
+  Some repeat patterns are not supported yet. Here’s the easiest workaround for each one.
+</Info>
 
-### Different times for different days
+<CardGroup cols={2}>
+  <Card title="Different times for different days" icon="clock">
+    <Warning>
+      <strong>Not supported:</strong> Every Monday at 8 PM and Tuesday at 9 PM
+    </Warning>
 
-**Not supported:** Every Monday at 8 PM and Tuesday at 9 PM
+    <Tip>
+      <strong>Workaround:</strong> Create two separate recurring tasks
+    </Tip>
+  </Card>
 
-**Workaround:** Create two separate recurring tasks
+  <Card title="Multiple recurrence rules in one task" icon="rotate-right">
+    <Warning>
+      <strong>Not supported:</strong> Every Monday and every 1st of the month
+    </Warning>
 
-### Multiple recurrence rules in one task
-
-**Not supported:** Every Monday and every 1st of the month
-
-**Workaround:** Create two separate recurring tasks
+    <Tip>
+      <strong>Workaround:</strong> Create two separate recurring tasks
+    </Tip>
+  </Card>
+</CardGroup>
 
 ## Managing recurring tasks
 
-### Completing a recurring task
+<AccordionGroup>
+  <Accordion title="Completing a recurring task">
+    Each recurring task creates the next scheduled task automatically.
 
-Each recurring task creates the next scheduled task automatically.
+    If you don’t complete today’s task, the next one will still appear on the scheduled date. Uncompleted tasks are marked as overdue.
+  </Accordion>
 
-If you don’t complete today’s task, the next one will still appear on the scheduled date. Uncompleted tasks are marked as overdue.
+  <Accordion title="Editing a recurring task">
+    Changes apply to all future occurrences.
 
-### Editing a recurring task
+    If you change the frequency or interval, the recurrence pattern recalculates from today.
+  </Accordion>
 
-Changes apply to all future occurrences.
+  <Accordion title="Ending a recurring task">
+    You can choose when the task stops repeating:
 
-If you change the frequency or interval, the recurrence pattern recalculates from today.
+    - **Never**
+    - **On date**
+    - **After several occurrences**
+  </Accordion>
 
-### Ending a recurring task
+  <Accordion title="Deleting a recurring task">
+    Deleting a recurring task removes all future occurrences.
 
-You can choose when the task stops repeating:
+    If you only want to remove one occurrence, complete it instead or convert it to a one-time task first.
+  </Accordion>
+</AccordionGroup>
 
-- **Never**
-- **On date**
-- **After several occurrences**
-
-### Deleting a recurring task
-
-Deleting a recurring task removes all future occurrences.
-
-If you only want to remove one occurrence, complete it instead or convert it to a one-time task first.
-
-Open the **menu (⋮)** and select **Show all recurring instances** to see all upcoming occurrences of a recurring task in one place.
+<Tip>
+  Open the **menu (⋮)** and select **Show all recurring instances** to see all upcoming occurrences of a recurring task in one place.
+</Tip>
 
 ## Tips for setting recurring tasks
 
-### Be specific with times
+<CardGroup cols={2}>
+  <Card title="Be specific with times" icon="clock">
+    Instead of **Every day**, use **Every day at 9 AM** to make the routine more consistent.
+  </Card>
 
-Instead of **Every day**, use **Every day at 9 AM** to make the routine more consistent.
+  <Card title="Use weekdays for work tasks" icon="briefcase">
+    **Every weekday** is cleaner than listing Monday through Friday separately.
+  </Card>
 
-### Use weekdays for work tasks
+  <Card title="Start simple" icon="sparkles">
+    Start with simple patterns like **Every Monday** before using more advanced custom setups.
+  </Card>
 
-**Every weekday** is cleaner than listing Monday through Friday separately.
-
-### Start simple
-
-Start with simple patterns like **Every Monday** before using more advanced custom setups.
-
-### Use date-based repeats for bills
-
-For monthly bills, use patterns like **Every 1st** for consistency.
+  <Card title="Use date-based repeats for bills" icon="credit-card">
+    For monthly bills, use patterns like **Every 1st** for consistency.
+  </Card>
+</CardGroup>
 
 ## Common use cases
 
-### Personal
-
-- Weekly grocery shopping: **Every Saturday at 10 AM**
-- Monthly rent payment: **Every 1st at 9 AM**
-- Daily medication: **Every day at 8 AM**
-- Quarterly car maintenance: **Every 3 months**
-- Annual tax filing: **Every April 15th**
-
-### Work
-
-- Weekly team meeting: **Every Monday at 2 PM**
-- Monthly reports: **Every last Friday at 3 PM**
-- Quarterly reviews: **Every 3 months on the 15th**
-- Daily standup: **Every weekday at 9:30 AM**
-
-### Health & Fitness
-
-- Gym routine: **Every Monday, Wednesday, Friday at 6 AM**
-- Weekly meal prep: **Every Sunday at 4 PM**
-- Monthly health checkup: **Every 1st**
-- Dental cleaning: **Every 6 months**
-- Annual health checkup: **Every year on your birthday**
+<Tabs>
+  <Tab title="Personal">
+    - Weekly grocery shopping: **Every Saturday at 10 AM**
+    - Monthly rent payment: **Every 1st at 9 AM**
+    - Daily medication: **Every day at 8 AM**
+    - Quarterly car maintenance: **Every 3 months**
+    - Annual tax filing: **Every April 15th**
+  </Tab>
+  <Tab title="Work">
+    - Weekly team meeting: **Every Monday at 2 PM**
+    - Monthly reports: **Every last Friday at 3 PM**
+    - Quarterly reviews: **Every 3 months on the 15th**
+    - Daily standup: **Every weekday at 9:30 AM**
+  </Tab>
+  <Tab title="Health & Fitness">
+    - Gym routine: **Every Monday, Wednesday, Friday at 6 AM**
+    - Weekly meal prep: **Every Sunday at 4 PM**
+    - Monthly health checkup: **Every 1st**
+    - Dental cleaning: **Every 6 months**
+    - Annual health checkup: **Every year on your birthday**
+  </Tab>
+</Tabs>
 
 ## Need help?
 
-If you’re having trouble setting up a recurring task, check the examples above. For further help, contact [Support](mailto:samantha@zemuria.com).
+If you’re having trouble setting up a recurring task, check the examples above. For further help, contact us at [samantha@zemuria.com](mailto:samantha@zemuria.com).
 
-Most users only need simple repeat patterns like **Every Monday** or **Every 15th**. Start simple and only add complexity when needed.
+<Note>
+  Most users only need simple repeat patterns like **Every Monday** or **Every 15th**. Start simple and only add complexity when needed.
+</Note>

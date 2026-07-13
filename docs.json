@@ -57,7 +57,8 @@
               "Settings/ExcludedLabels",
               "Settings/EmailFooter",
               "Settings/SlashCommands",
-              "Settings/BYOK"
+              "Settings/BYOK",
+              "Settings/BackupandSync"
             ]
           },
           {

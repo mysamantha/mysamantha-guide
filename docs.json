@@ -24,15 +24,7 @@
         "pages": [
           {
             "group": "Getting Started",
-            "pages": [
-              "GettingStarted/Quickstart"
-            ]
-          },
-          {
-            "group": "Introduction",
-            "pages": [
-              "Introduction/WelcometoMysamantha"
-            ]
+            "pages": []
           },
           {
             "group": "How it works",

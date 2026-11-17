@@ -1,126 +1,196 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "palm",
-  "name": "Mysamantha Docs",
+  "theme": "mint",
+  "name": "MySamantha Guide",
   "colors": {
-    "primary": "#D85A30",
-    "light": "#F0997B",
-    "dark": "#993C1D"
-  },
-  "favicon": "/logo/icon.png",
-  "logo": {
-    "light": "/logo/newlogosvg.svg",
-    "dark": "/logo/white.png"
-  },
-  "metadata": {
-    "og:site_name": "Mysamantha Docs",
-    "og:type": "website",
-    "og:description": "Samantha is your personal AI assistant that makes you think smarter, stay organized, and stay on top of everything."
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
   },
   "navigation": {
     "tabs": [
       {
         "tab": "Guide",
-        "pages": [
+        "groups": [
           {
-            "group": "Getting Started",
-            "pages": []
-          },
-          {
-            "group": "How it works",
+            "group": "Get started",
             "pages": [
-              "Howitworks/HowMysamanthaWorks"
+              "get-started/quickstart",
+              "get-started/account-and-setup"
             ]
           },
           {
-            "group": "Core Features",
+            "group": "Samantha",
             "pages": [
-              "CoreFeatures/Notes",
-              "CoreFeatures/ToDo",
-              "CoreFeatures/Recurringtasks",
-              "CoreFeatures/Journal",
-              "CoreFeatures/Assistant"
+              "samantha/chat-models-and-sharing",
+              "samantha/files-and-voice",
+              "samantha/memory-and-proactive-messages"
             ]
           },
           {
-            "group": "Settings",
+            "group": "Notes",
             "pages": [
-              "Settings/Preferences",
-              "Settings/ExcludedLabels",
-              "Settings/EmailFooter",
-              "Settings/SlashCommands",
-              "Settings/BYOK",
-              "Settings/BackupandSync"
+              "notes/notes-basics",
+              "notes/tables-and-forms",
+              "notes/media-and-voice",
+              "notes/samantha-links-and-atlas",
+              "notes/collaboration-and-sharing",
+              "notes/import-export-and-recovery"
             ]
           },
           {
-            "group": "Integrations",
+            "group": "To-do",
             "pages": [
-              "Integrations/Index"
+              "todo/todo-basics",
+              "todo/recurring-todos-and-reminders",
+              "todo/sync-and-backup"
             ]
           },
           {
-            "group": "Browser Extension",
+            "group": "Journal",
             "pages": [
-              "BrowserExtension/WebClipper"
+              "journal/journaling-and-privacy"
             ]
           },
           {
-            "group": " Migration",
+            "group": "Home",
             "pages": [
-              "Migration/Notion",
-              "Migration/Obsidian"
+              "home/home-and-applets",
+              "home/personality-insights"
             ]
           },
           {
-            "group": "Dashboard",
+            "group": "Email and calendar",
             "pages": [
-              "Dashboard/PersonalityTraits"
+              "email-calendar/email-and-calendar-with-samantha"
             ]
           },
           {
-            "group": "Advanced",
+            "group": "Meetings",
             "pages": [
-              "Advanced/TravelPlanner",
-              "Advanced/Offlineaccess",
-              "Advanced/youdo"
+              "meetings/record-a-meeting",
+              "meetings/transcripts-and-follow-ups"
             ]
           },
           {
-            "group": "Use Cases",
+            "group": "Automations and skills",
             "pages": [
-              "Usecase/use-cases"
+              "automations/youdos",
+              "automations/skills-and-recipes"
+            ]
+          },
+          {
+            "group": "Browser extension",
+            "pages": [
+              "browser-extension/install-and-configure",
+              "browser-extension/capture-from-the-web"
+            ]
+          },
+          {
+            "group": "Connections",
+            "pages": [
+              "connections/connect-apps",
+              "connections/health-connection"
+            ]
+          },
+          {
+            "group": "Account and settings",
+            "pages": [
+              "account-settings/account-and-preferences",
+              "account-settings/invites-earnings-and-data-controls"
+            ]
+          },
+          {
+            "group": "Plans and AI billing",
+            "pages": [
+              "plans/free-trial",
+              "plans/ai-costs-and-balance",
+              "plans/payments-and-invoices"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Workspaces",
+        "groups": [
+          {
+            "group": "Workspace basics",
+            "pages": [
+              "workspaces/workspace-basics"
+            ]
+          },
+          {
+            "group": "People and access",
+            "pages": [
+              "workspaces/people-and-access"
+            ]
+          },
+          {
+            "group": "Sharing and folders",
+            "pages": [
+              "workspaces/sharing-and-folders"
+            ]
+          },
+          {
+            "group": "Projects",
+            "pages": [
+              "workspaces/projects/projects-and-setup",
+              "workspaces/projects/project-work-and-planning",
+              "workspaces/projects/project-management"
+            ]
+          },
+          {
+            "group": "Samantha in a workspace",
+            "pages": [
+              "workspaces/samantha/ai-and-instructions",
+              "workspaces/samantha/connections-memory-and-privacy"
+            ]
+          },
+          {
+            "group": "Admin",
+            "pages": [
+              "workspaces/admin/settings-and-oversight",
+              "workspaces/admin/workspace-export-and-deletion"
+            ]
+          },
+          {
+            "group": "Workspace billing",
+            "pages": [
+              "workspaces/billing/members-and-licenses",
+              "workspaces/billing/storage-balance-and-payments"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Help",
+        "groups": [
+          {
+            "group": "Privacy and security",
+            "pages": [
+              "help/privacy-and-security"
+            ]
+          },
+          {
+            "group": "FAQ and troubleshooting",
+            "pages": [
+              "help/faq-and-troubleshooting"
+            ]
+          },
+          {
+            "group": "Quick reference",
+            "pages": [
+              "help/quick-reference"
+            ]
+          },
+          {
+            "group": "Support and updates",
+            "pages": [
+              "help/support-and-updates"
             ]
           }
         ]
       }
     ]
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:samantha@zemuria.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://mysamantha.ai"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/samanthareplies",
-      "instagram": "https://www.instagram.com/samanthareplies/",
-      "reddit": "https://www.reddit.com/r/CafeSamantha/"
-
-    }
-  },
-  "background": {
-    "color": {
-      "light": "#FFFFFF",
-      "dark": "#000000"
-    }
   }
 }

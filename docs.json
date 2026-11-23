@@ -55,8 +55,9 @@
           {
             "group": "Home",
             "pages": [
-              "home/home-and-applets",
-              "home/personality-insights"
+              "home/home-overview",
+              "home/personality-insights",
+              "untitled-page"
             ]
           },
           {

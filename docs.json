@@ -67,13 +67,6 @@
             ]
           },
           {
-            "group": "Meetings",
-            "pages": [
-              "meetings/record-a-meeting",
-              "meetings/transcripts-and-follow-ups"
-            ]
-          },
-          {
             "group": "Automations and skills",
             "pages": [
               "automations/youdos",
@@ -84,7 +77,9 @@
             "group": "Browser extension",
             "pages": [
               "browser-extension/install-and-configure",
-              "browser-extension/capture-from-the-web"
+              "browser-extension/capture-from-the-web",
+              "meetings/record-a-meeting",
+              "meetings/transcripts-and-follow-ups"
             ]
           },
           {
